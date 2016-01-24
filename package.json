@@ -1,22 +1,35 @@
 {
-	"name": "metal-router",
-	"version": "0.0.0",
-	"description": "Routing solution to link URLs to Metal.js components using HTML5 History API.",
-	"license": "BSD",
-	"repository": "metal/metal-router",
-	"engines": {
-		"node": ">=0.12.0"
-	},
-	"scripts": {
-		"test": "gulp test"
-	},
-	"keywords": [
-		"metal"
-	],
-	"devDependencies": {
-		"gulp": "^3.8.11",
-		"gulp-metal": "^0.7.0",
-		"karma-sinon": "^1.0.4",
-		"sinon": "^1.14.1"
-	}
+  "name": "metal-router",
+  "version": "0.0.0",
+  "description": "Routing solution to link URLs to Metal.js components using HTML5 History API.",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metal/metal-router.git"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "main": "src/Router.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "metal"
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-metal": "^0.7.0",
+    "karma-sinon": "^1.0.4",
+    "sinon": "^1.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/metal/metal-router/issues"
+  },
+  "homepage": "https://github.com/metal/metal-router#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "author": ""
 }
